@@ -1,0 +1,14 @@
+DECLARATION, DEFINITION AND INITIALIZATION
+Declaration is creating a variable with the var keyword in JS , whereby after the declaration, the variable has no value(technically it has the value of undefined).
+Example;     var car
+
+ Initialization is the way of assigning an initial
+ value to a variable. So undefined is the initial 
+value of a declared variable.
+Where a variable is declared it is automatically
+ initialized.
+Example; var thing = “code”;
+The variable thing is initialized with “code”.
+
+Definition is asking complier to allocate 
+memory or define storage for that variable
