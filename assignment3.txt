@@ -1,0 +1,17 @@
+fruit_list =
+ ["banana","orange","mango","apple","passion"];
+function printFruits(fruit_list)
+{
+
+console.log(fruit_list);
+}
+
+(5) ["banana", "orange", "mango", "apple", "passion"]
+
+
+var fruit_index = prompt("from fruit_list pick 0-4");
+console.log(fruit_list[fruit_index]);
+
+function pickFruit
+(fruit_list,fruit_index)
+{ alert(fruit_list[fruit_index]);}
