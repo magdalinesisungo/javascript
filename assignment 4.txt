@@ -1,0 +1,26 @@
+fruits = {"orange":30,"apple":40,"melon":60,"mango":10};
+    
+
+{orange: 30, apple: 40, melon: 60, mango: 10}
+
+
+fruits["orange"]*quantity
+
+60
+
+
+
+
+function calculateFruitCost(specificfruit,quantity){ 
+
+fruits = {"orange":30,"apple":40,"melon":60,"mango":10};
+
+var price = fruits[specificfruit]*quantity
+
+console.log(quantity + ' ' + specificfruit + ' for KES '
+ + price);
+}
+calculateFruitCost("orange",2);
+
+
+ 2 orange for KES 60
