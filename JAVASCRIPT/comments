@@ -1,0 +1,169 @@
+"100 == 100
+VM321:1 Uncaught SyntaxError: Invalid or unexpected token
+"100" == 100
+true
+// this is a single line comment
+undefined
+/*this is a
+multiline
+VM387:1 Uncaught SyntaxError: Invalid or unexpected token
+/*this is a
+multil
+VM394:1 Uncaught SyntaxError: Invalid or unexpected token
+/*this is a
+multililine
+comment
+VM412:1 Uncaught SyntaxError: Invalid or unexpected token
+/* this is a
+multililine
+comment*/
+undefined
+var cars = [] //cars to be used for fee calculation
+undefined
+var cars = []; /* lit of cars to be used for parking
+fee calculation
+*/
+undefined
+var a = /* comment */ 2;
+undefined
+main.js:1111 GET https://gc.kis.scr.kaspersky-labs.com/4A148FD6-91B0-4549-941C-5C996378244C/D57048F2-44C9-9142-B1F7-8D379364BABF/from net::ERR_NETWORK_IO_SUSPENDED
+SendRequest @ main.js:1111
+ping @ main.js:909
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+main.js:801 GET https://gc.kis.scr.kaspersky-labs.com/4A148FD6-91B0-4549-941C-5C996378244C/D57048F2-44C9-9142-B1F7-8D379364BABF/log?ERR%20CB%20-%20AJAX%20ping%20network%20error! net::ERR_NETWORK_IO_SUSPENDED
+SendAsync @ main.js:801
+(anonymous) @ main.js:838
+setTimeout (async)
+SendLog @ main.js:837
+KasperskyLabSessionClass.Log @ main.js:1306
+OnError @ main.js:2141
+(anonymous) @ main.js:1285
+ReportPluginError @ main.js:1012
+ReportError @ main.js:1020
+SendRequest.request.onerror @ main.js:1081
+error (async)
+SendRequest @ main.js:1078
+ping @ main.js:909
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910
+setTimeout (async)
+ping @ main.js:910

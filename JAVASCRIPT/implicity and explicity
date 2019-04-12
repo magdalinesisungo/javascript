@@ -1,0 +1,31 @@
+newtab?ie=UTF-8:8 SW registered
+var a = "apple";
+undefined
+type of a 
+VM83:1 Uncaught SyntaxError: Unexpected identifier
+typeof a
+"string"
+var b = Number(a)
+undefined
+b
+NaN
+var c = "100";
+undefined
+var d = Number(c);
+undefined
+dtyeof d
+VM214:1 Uncaught SyntaxError: Unexpected identifier
+typeof d
+"number"
+var a = "100";
+undefined
+var b = a * 2;
+undefined
+b
+200
+var a = "0";
+undefined
+var b = a * 2;
+undefined
+b
+0

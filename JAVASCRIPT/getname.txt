@@ -1,0 +1,19 @@
+function user() {
+  var username;
+  var password;
+  
+  function doLogin(usr,pwd){
+    username = usr;
+    password = pwd;
+    console.log("my username is " + username);
+    
+  }
+  
+  var publicAPI = {
+    login: doLogin
+  }
+  return publicAPI;
+}
+
+var Magda = user();
+Magda.login("Magda", "123test");

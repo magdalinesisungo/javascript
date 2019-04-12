@@ -1,0 +1,9 @@
+UNDEFINED AND NULL
+Undefined means a variable has been declared but has 
+not yet been assigned a value.
+
+  Null is an assignment value, it can be assigned 
+to a variable as a representation of no value.
+ Also, undefined and null are two distinct 
+types: undefined is a type itself (undefined)
+ while null is an object.

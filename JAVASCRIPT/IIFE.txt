@@ -1,0 +1,6 @@
+var name = (function getName() {
+  return "Magda";
+ } )();
+
+console.log(name);
+
