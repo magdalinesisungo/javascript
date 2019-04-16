@@ -1,0 +1,25 @@
+var amount = 101;
+if(amount
+VM652:2 Uncaught SyntaxError: Unexpected end of input
+var amount = 101;
+
+undefined
+if (amount > 100){
+    let amount = 200;
+    amount = amount * 2;
+    console.log(amount);
+}
+VM816:4 400
+undefined
+console.log(amount);
+VM860:1 101
+undefined
+if (amount > 100){
+    var amount = 200;
+    amount = amount * 2;
+    console.log(amount);
+}
+console.log(amount);
+VM924:4 400
+VM924:6 400
+undefined

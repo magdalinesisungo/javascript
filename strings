@@ -1,0 +1,51 @@
+var name = "MagdA Kenpa"
+         
+undefined
+name.toUpperCase()
+"MAGDA KENPA"
+name.toLowerCase()
+
+"magda kenpa"
+name.toLocaleLowerCase()
+"magda kenpa"
+Date()
+"Thu Mar 28 2019 18:50:51 GMT+0300 
+(East Africa Time)"
+var today = new Date()
+undefined
+today
+Thu Mar 28 2019 18:52:24 GMT+0300 
+(East Africa Time)
+var dob = "1999";
+undefined
+typeof dob
+"string"
+Number(dob)
+1999
+var dob2 = Number 
+(dob)
+undefined
+typeof dob
+"string"
+String(dob2)
+"1999"
+Boolean(1)
+true
+var a = null
+undefined
+typeof a
+"object"
+
+var person = {
+	name:"Magda Kenpa",
+	age: 20,
+	gender:"female",
+}
+
+undefined
+person.name
+"Magda Kenpa"
+person.name.toUpperCase()
+"MAGDA KENPA"
+person
+{name: "Magda Kenpa", age: 20, gender: "female"}

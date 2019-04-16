@@ -1,0 +1,27 @@
+function outer (x) {
+  
+  function inner (y) {
+    console.log(x + y);
+    
+  }
+  return inner;
+}
+
+var innerFunc = outer (5);
+innerFunc(2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

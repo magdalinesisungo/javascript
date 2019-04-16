@@ -1,0 +1,33 @@
+var person = ["janet", 21, "female"]
+undefined
+person[2]
+"female"
+person
+(3) ["janet", 21, "female"]
+var myfunc = function hello() {}
+undefined
+typeof hello
+"undefined"
+function hello () {}
+undefined
+MimeType
+ƒ MimeType() { [native code] }
+typeof hello
+"function"
+function getName() {}
+undefined
+function getName() {}
+undefined
+function getName() {}
+undefined
+function getName() {
+return "Magdaline Sisungo"    
+}
+
+undefined
+getName()
+"Magdaline Sisungo"
+var myName = getName()
+undefined
+getName()
+"Magdaline Sisungo"
