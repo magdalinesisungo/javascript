@@ -15,6 +15,6 @@ getFruits() {
 }
 }
 
-var kiosk = new Kiosk(['apple']);
+var kiosk = new Kiosk(['apple','banana','pasion']);
 kiosk.setFruit("mango")
 console.log(kiosk.getFruits());
