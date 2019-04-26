@@ -11,7 +11,7 @@ class KioskCalc {
       const price = this.fruitsPriceList[this.fruit];
       return this.quantity * price;
     } else {
-//       throw new Error(`Unsupported price item: ${this.fruit}`);
+
       bring:{this.fruit};
     }
   }
