@@ -5,13 +5,6 @@ class KioskCalc {
    this.fruitsPriceList = { orange: 30, mango: 15, avocado: 40 };
  }
 
- class KioskCalc {
- constructor(fruit, quantity) {
-   this.fruit = fruit;
-   this.quantity = quantity;
-   this.fruitsPriceList = { orange: 30, mango: 15, avocado: 40 };
- }
-
  setTotalCost() {
    if (this.fruit in this.fruitsPriceList) {
      const price = this.fruitsPriceList[this.fruit];
