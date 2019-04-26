@@ -1,0 +1,157 @@
+WEEK 7 classwork
+1.)use of this:
+
+let user = {
+  name: "Magdaline",
+  getName: function getName() {
+    return this.name;
+}
+}
+console.log(user.getName());
+"Magdaline"
+
+2.) Function to give a message when it's called(a function can call a method):
+let user = {
+  name: "Magdaline",
+  }
+user.sayHi = function sayHi() {
+  console.log("Hello... I am " + this.name);
+  }
+user.sayHi()
+"Hello... I am Magdaline"
+
+3.)A function to be used by both users:
+let user1 = {
+  name: "Magdaline",
+}
+  
+  let user2 = {
+  name: " sisungo",
+  }
+  let user3 = {
+  name: "Maggy",
+}
+  
+   let user4 = {
+  name: "Jane Doe",
+}
+  
+  function sayHi() {
+  console.log("Hello... I am " + this.name);
+  }
+
+user1.sayHi = sayHi;
+user2.sayHi = sayHi;
+user3.sayHi = sayHi;
+user4.sayHi = sayHi;
+
+user1.sayHi();
+user2.sayHi();
+user3.sayHi();
+user4.sayHi();
+"Hello... I am Magdaline"
+"Hello... I am  Sisungo"
+"Hello... I am Maggy"
+"Hello... I am Jane Doe"
+
+4.)CLASSES:
+using name-
+class Lovelace {
+  constructor() {
+    this.name = null;
+    this.age = null;
+  }
+  
+  setName(name) {
+    this.name = name;
+  }
+  
+  getName() {
+    return this.name;
+  }
+}
+
+let student1 = new Lovelace();
+let student2 = new Lovelace();
+let student3 = new Lovelace();
+
+student1.setName("Mercy");
+alert(student1.getName());
+
+student2.setName("Mueni");
+alert(student2.getName());
+
+student3.setName("Magda");
+alert(student3.getName());
+Mercy
+Mueni
+Sharon
+
+class Lovelace {
+  constructor() {
+    this.name = null;
+    this.age = null;
+  }
+  
+  setAge(age) {
+    this.age = age;
+  }
+  
+  getAge() {
+    return this.age;
+  }
+}
+
+let student1 = new Lovelace();
+let student2 = new Lovelace();
+let student3 = new Lovelace();
+
+student1.setAge("18");
+alert(student1.getAge());
+
+student2.setAge("20");
+alert(student2.getAge());
+
+student3.setAge("21");
+alert(student3.getAge());
+
+shortcut for both age and name:::
+class Lovelace {
+  constructor(myName, myAge) {
+    this.name = myName;
+    this.age = myAge;
+  }
+
+  
+  getName() {
+    return this.name + '' + this.age;
+  }
+}
+
+let student1 = new Lovelace("Mercy",20);
+let student2 = new Lovelace("Mueni",18);
+let student3 = new Lovelace("Sharon",21);
+
+
+alert(student1.getName());
+alert(student2.getName());
+alert(student3.getName());
+
+5.)PROTOTYPES......
+let obj1 = { a: 10}
+let obj2 = Object.create(obj1);
+obj2.b = 20;
+console.log(obj1.a);
+console.log(obj2.a);
+obj1.a = 30;
+console.log(obj2.a);
+console.log(obj2.b);
+10
+10
+30
+20
+
+6.)OLD & NEW CODES.......
+
+
+
