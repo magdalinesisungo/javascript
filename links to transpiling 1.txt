@@ -1,0 +1,11 @@
+class Lovelace {
+  constructor() {
+    this.name = name;
+  
+}
+  getName() {
+    return this.name
+  }
+}
+let student1 = new Lovelace("Maggy");
+alert(student1.getName());

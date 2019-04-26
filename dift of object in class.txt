@@ -1,0 +1,9 @@
+let obj1 = {a: 10}
+ let obj2 = Object.create(obj1);
+obj1.b = 20;
+console.log(obj1.a);
+console.log(obj2.a);
+obj1.a = 30;
+console.log(obj2.a);
+console.log(obj2.b);
+

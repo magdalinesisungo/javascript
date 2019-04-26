@@ -1,0 +1,16 @@
+var person = { 
+  name: "Jane Doe",
+  getName: function() {
+     return this.name; 
+  }  
+}
+
+Object.defineProperty(person, 'name', {
+value: 'Jane Doe',
+writable: false
+});
+
+person.name = "John Doe";
+
+console.log(person.getName())
+

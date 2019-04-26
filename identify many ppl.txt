@@ -1,0 +1,20 @@
+let user1 = {
+  name:"Jane",
+ 
+} 
+let user2 = {
+  name:"Jonny",
+}
+let user3 = {
+  name:"Magdaline",
+}
+function sayHi(){
+  console.log("Hello..., i am " + this.name);
+}
+user1.sayHi = sayHi;
+user2.sayHi = sayHi;
+user3.sayHi = sayHi;
+
+user1.sayHi();
+user2.sayHi();
+user3.sayHi();

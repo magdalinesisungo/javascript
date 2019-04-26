@@ -1,0 +1,8 @@
+let user = {
+  name:"Jane Doe",
+ 
+}
+user.sayHi = function sayHi(){
+  console.log("Hello..., i am " + this.name);
+}
+user.sayHi()
