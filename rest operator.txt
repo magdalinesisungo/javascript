@@ -1,0 +1,24 @@
+the rest operator
+
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+  profession: "fronted developer"
+}
+
+let {name, ...rest} = student;
+console.log(name, rest);
+
+
+
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+  profession: "fronted developer"
+}
+
+let {name, ...rest} = student;
+console.log(name, rest);
+

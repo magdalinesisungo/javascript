@@ -1,0 +1,4 @@
+var fruits = [ "melon", "bananas", "avocado" ]
+var [fruit1, ,fruit3] = fruits;
+console.log(fruit1);
+console.log(fruit3);

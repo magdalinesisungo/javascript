@@ -1,0 +1,17 @@
+Arrow functions
+
+let name = function() { return "Maggy Robai" }
+console.log(name())
+
+same us; 
+
+let name =()=> "Maggy Robai"
+console.log(name())
+
+
+let multiply =(a,b)=> a*b
+console.log(multiply(5,8))
+
+let divide =(a,b)=> a/b
+console.log(divide(50,5))
+

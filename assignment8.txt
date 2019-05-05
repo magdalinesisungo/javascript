@@ -1,0 +1,21 @@
+
+Quiz(1)
+
+let user = {
+ name: "Jane Doe",
+ years: 20
+}
+let {name, years, isStudent="false"} = user;
+console.log(name, years,isStudent)
+
+
+Quiz(2)
+
+let ask = prompt ("do you agree", "yes","no") ;
+let confirm = (ask, "yes","no")?
+    ()=>alert("you agreed"):
+    ()=>alert("you cancelled thisexecutio");
+
+confirm();
+
+

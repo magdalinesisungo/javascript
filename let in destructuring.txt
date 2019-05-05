@@ -1,0 +1,5 @@
+let name = "Maggy Robai";
+
+let[firstName, lastName] = name.split(' ');
+
+alert(`Hi, ${firstName}`)

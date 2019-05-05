@@ -1,0 +1,4 @@
+let name = ["Jane","Doe"]
+let [firstName, lastName] = name;
+console.log(firstName);
+console.log(lastName);
