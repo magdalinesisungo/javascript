@@ -1,21 +1,24 @@
 
 Quiz(1)
 
-let user = {
- name: "Jane Doe",
- years: 20
-}
-let {name, years, isStudent="false"} = user;
-console.log(name, years,isStudent)
+let ask = (question,yes,no) =>{
+ if(confirm (question,yes,no)) yes()
+ else no();
+} 
+  ask(
+  "do you agree?" ,
+    () => { console.log("you agreed"); },
+    () => { console.log("you canceled the execution"); }
+);
 
 
 Quiz(2)
 
-let ask = prompt ("do you agree", "yes","no") ;
-let confirm = (ask, "yes","no")?
-    ()=>alert("you agreed"):
-    ()=>alert("you cancelled thisexecutio");
-
-confirm();
+let user = {
+ name: "Maggy Robai",
+ years: 20
+}
+let {name, years, isStudent="false"} = user;
+console.log(name, years,isStudent)
 
 
