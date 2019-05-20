@@ -1,0 +1,29 @@
+ function pleaseCallMe() {
+   console.log ("No credit,Magda")
+ }
+ 
+setInterval(pleaseCallMe,5000);
+
+
+function fullName(firstName,lastName){
+  return ` ${firstName} ${lastName}`
+}
+
+function ask(fullName) {
+  firstName = prompt("What  is your firstName?")
+  lastName = prompt("What is your lastName? ")
+  let name = fullName(firstName, lastName);
+  alert("Your name is" + name);
+  
+}
+ask(fullName)
+
+function gift() {
+  return "buy a Ford Ranger"
+}
+
+function receiveGift(gift){
+  alert("Maggy you gift is" + gift()); 
+}
+receiveGift(gift())
+

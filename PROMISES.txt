@@ -1,0 +1,21 @@
+let weddingPromise = new Promise(function(resolve,reject) {
+  return resolve("I am at the wedding")
+})
+weddingPromise.then(response => {
+  console.log(response);
+})
+
+let weddingPromise = new Promise(function(resolve,reject) {
+  return resolve("I am at the wedding")
+})
+weddingPromise.then(response => {
+  console.log(response);
+})
+
+
+let weddingPromise = new Promise(function(resolve,reject) {
+  return setTimeout(() => reject("sorry cant make"), 3000)
+})
+weddingPromise.catch(response => {
+  console.log(response);
+})

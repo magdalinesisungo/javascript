@@ -1,0 +1,53 @@
+Queues using shifting and unshifting
+The shift and unshift methods are similar to push and pop, only they work from the beginning of the array. We can use the push and shift methods consecutively to utilize an array as a queue. For example:
+
+var myQueue = [];
+myQueue.push(1);
+myQueue.push(2);
+myQueue.push(3);
+
+console.log(myQueue.shift());
+console.log(myQueue.shift());
+console.log(myQueue.shift());
+The shift keyword will remove the variables of the array in the exact order they were inserted in, and the output will be:
+
+1
+2
+3
+UNSHIFT
+
+The unshift method is used to insert a variable at the beginning of an array. For example:
+
+var myArray = [1,2,3];
+myArray.unshift(0);
+console.log(myArray);       // will print out 0,1,2,3
+
+
+SPLICING
+Splicing arrays in JavaScript removes a certain part from an array to create a new array, made up from the part we took out. For example, if we wanted to remove the five numbers from the following array beginning from the 3rd index, we would do the following:
+
+var myArray = [0,1,2,3,4,5,6,7,8,9];
+var splice = myArray.splice(3,7);
+
+console.log(splice);        // will print out 3,4,5,6,7
+console.log(myArray);       // will print out 0,1,2,8,9
+
+QUIZ
+Exercise
+In this tutorial, you must manipulate the array called myArray and do the following:
+
+Push the number 42 to the end of the array
+Shift a variable from the beginning of the array
+
+
+SOLN
+var myArray = [true, "What is the meaning of life?"];
+// TODO: write your code here:
+myArray.push(42);
+myArray.shift();
+console.log(myArray[0]);
+console.log(myArray[1]);
+
+ANS
+What is the meaning of life?
+42

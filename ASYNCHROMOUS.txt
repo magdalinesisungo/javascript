@@ -1,0 +1,13 @@
+Asychromous
+SETTIMEOUT
+console.log("plant Kunde")
+setTimeout(() => console.log("Water Kunde"),3000)
+console.log("Fertilize Kunde")
+
+CLEAR INTERVALS
+console.log("plant Kunde")
+let myInterval = setInterval(() => console.log("Water Kunde"),1000)
+setTimeout(() => clearInterval(myInterval) , 3000)
+console.log("Fertilize Kunde")
+
+

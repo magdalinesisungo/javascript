@@ -1,0 +1,32 @@
+
+loop over key and values in an object
+1)
+
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+  profession: "fronted developer"
+}
+
+for (let key in student) {
+  if (student.hasOwnProperty(key)) {
+    console.log(student[key]);
+  }
+}
+
+
+2)
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+  profession: "fronted developer"
+}
+
+for (let [key, value] of Object.entries (student)) {
+ {
+    console.log(student[key]);
+  }
+}
+

@@ -1,0 +1,129 @@
+class MumMboga{ 
+  constructor(productId,name,price,quantity) {
+    this.products = [];
+    this.carts = [];
+    this.orders = [];
+    this.customers = [];
+   
+  }
+ 
+addProduct (){ 
+    var myProduct = {productId:55, name:"Kales", price:80, quantity:3}
+    this.products.push(myproduct)
+    return this.productId + ' ' + name + ' ' + price + ' ' + quantity;
+    
+}
+
+let mumMboga = new MumMboga;
+console.log(mumMboga.addProduct())
+
+
+    
+
+  removeProduct () {
+     var remove = ['productId','name','price','quantity'];
+    remove.shift();
+    console.log(remove);
+  
+  } 
+  
+  updateProduct () {
+    var dateProduct = {"productId":80, "name":"Cabbage", "price":120, "quantity":7};
+    return(dateProduct)
+   
+ }
+        
+  
+  
+  getProduct () {
+    var myProduct = ["name","price","quantity"];
+    myProduct.unshift(productId);
+  }
+console.log(myProduct)
+
+
+getProductCatalog() {
+  return this.productId + ' ' + this.name + ' ' + price + ' ' + quantity;
+  
+}
+
+
+  
+addToCart () { 
+var myCart= []
+  myCart.push(cartId);
+  myCart.push(product);
+  myCart.push(orderQuantity);
+  myCart.push(customerId);
+          
+ console.log(myCart);
+                
+  }
+  
+  removeFromCart () {
+    var fromCart = ['productId','name','price','quantity'];
+    fromCart.shift();
+    console.log(fromCart);
+    
+  } 
+  createOrder(){
+    var create = ["orderId","cartId"];
+    create.sort();
+    
+ }
+
+cancelOrder() {
+   var cancel = ["orderId","cartId"];
+    cancel.shift();
+    console.log(cancel);
+}
+calculateOrderCost (){
+  var price = this.name[this.name]*this.quantity;
+    return this.quantity + ' ' + this.name + ' ' + price;
+}
+
+getOrder (){
+  var order = {"cartId"};
+  order.push(orderId);
+  console.log(order)
+}
+addCustomer (){
+  var myCustomer = [];    
+  myCustomer.push(name);
+  myCustomer.push(email);
+  myCustomer.push(address);
+  
+  console.log(myCustomer)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
