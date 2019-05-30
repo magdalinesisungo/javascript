@@ -147,7 +147,7 @@ var mumMboga = new MumMboga();
 mumMboga.addProduct(1,"sukuma","30",2)
 mumMboga.addProduct(2,"terere","150","5 kgs")
 console.log(mumMboga.products)
-var catalog=new MumMboga()
+var mboga = new MumMboga()
 mumMboga.products=["kales",2,40]
 console.log(mumMboga.products)
 
