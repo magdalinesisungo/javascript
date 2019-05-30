@@ -158,17 +158,6 @@ console.log(vegetable.carts)
 vegetable.removeFromCart(1)
 console.log(vegetable.carts)
 
-var kales =new MumMboga()
-kales.createOrder(1,101)
-console.log(kales.createOrder)
-
-var water = new MumMboga();
-water.calculateOrderCost(101)
-console.log(water.calculateOrderCost)
-
-var mbao=new MumMboga()
-mbao.getOrder(101)
-console.log(mbao.orders)
 
 var customer=new MumMboga()
 customer.addCustomer(001,"Magdaline","mag.sisungo@gmail.com","Kitale")
@@ -176,6 +165,6 @@ customer.addCustomer(002,"Bilha","wanjikubilha@gmail.com","Banana")
 customer.addCustomer(003,"Were","emmanuel.were@gmail.com","Saboti")
 customer.removeCustomer(001)
 console.log(customer.customers)
-customer.updateCustomer(004, "Dash", "dannisdash@gmail.com", "Vihiga")
+customer.updateCustomer(003, "Dash", "dannisdash@gmail.com", "Vihiga")
 console.log(customer.customers)
 console.log(customer.getCustomer())
