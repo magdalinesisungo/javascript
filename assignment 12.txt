@@ -1,0 +1,24 @@
+var animate =()=>{
+  var title = document.getElementById("title");
+  title.style.color= title.style.color=="green"? "silver":"green"
+
+  };
+  setInterval(animate,1000);
+  
+
+var input = document.getElementById("myfruits");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myfruits").click();
+  }
+});
+
+
+var input = document.getElementById("myvegetables");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myfruits").click();
+  }
+});
