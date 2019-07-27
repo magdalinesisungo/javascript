@@ -1,0 +1,51 @@
+REST 
+is REpresentational State Transfer.
+
+XML
+JSON--> JavaScript Object Notation.
+AJAX-->Asynchronous Javascript And XML.
+XMLH++P
+
+
+STATELESSNESS
+monolithic is where by we have many application complened together e.g both frontend and backend.
+SOA-->Service Oriented Architecture (microservice)
+client + server
+
+HTTP Verbs
+PATCH-->giving instruction to the body to update.
+        Updated a specific resourse(id)
+GET — retrieve a specific resource (by id) or a collection of resources
+POST — create a new resource
+PUT — update a specific resource (by id)
+DELETE — remove a specific resource by id
+
+Synhrousnous is one step at a time.
+Asynhrousnous is what comes fast.
+   
+Data parket in datathrough the network
+
+JSX
+Is a syntax where html code are writtern in JS.
+
+
+NPM(Node Package Manager)
+is intalled with Node js.
+is the  worlds largest software registry with over 8000000 code packages.
+It includes CLI.
+Are defined as package.json file.
+
+A thread is an intance of a prossesor.
+
+
+nodes.js core modules
+
+The core modules include bare minimum functionalities of Node.js.
+Most useful core modules include:
+
+http module - includes classes, methods and events to create Node.js http server.
+url module - includes methods for URL resolution and parsing.
+querystring module - includes methods to deal with query string.
+path module - includes methods to deal with file paths.
+fs module - includes classes, methods, and events to work with file I/O.
+util module - includes utility functions useful for programmers.

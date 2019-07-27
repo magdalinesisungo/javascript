@@ -1,0 +1,20 @@
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+}
+let{name:firstName,age}=student;
+console.log(firstName);
+
+gives "ma ggy"
+
+
+var student = {
+  name : "Ma Ggy",
+  age : 20,
+  gender: "female",
+}
+let{name:firstName,age,profession="unknown"}=student;
+console.log(profession);
+
+gives 'unknown

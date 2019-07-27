@@ -1,26 +1,18 @@
-fruits = {"orange":30,"apple":40,"melon":60,"mango":10};
-    
+newtab?ie=UTF-8:8 SW registered
+function 
+calculateFruitCost(fruitName,quantity){ 
+var fruits = {
+"orange":30,"apple":40,"melon":60,"mango":10};
 
-{orange: 30, apple: 40, melon: 60, mango: 10}
+var price = fruits[fruitName]*quantity;
 
+console.log(quantity + ' ' + fruitName + ' for KES ' + price);
 
-fruits["orange"]*quantity
-
-60
-
-
-
-
-function calculateFruitCost(specificfruit,quantity){ 
-
-fruits = {"orange":30,"apple":40,"melon":60,"mango":10};
-
-var price = fruits[specificfruit]*quantity
-
-console.log(quantity + ' ' + specificfruit + ' for KES '
- + price);
 }
+
+
+undefined
 calculateFruitCost("orange",2);
 
-
- 2 orange for KES 60
+VM249:4 2 orange for KES 60
+undefinedassignment

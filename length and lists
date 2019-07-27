@@ -1,0 +1,88 @@
+newtab?ie=UTF-8:8 SW registered
+var fruitsList = ["banana","kiwi","orange","mango","apple"];
+
+undefined
+function printFruits(myflist)
+{
+for(var i=0; i<fruit_list.length;i++) {
+console.log(myflist[i]);}
+} 
+}
+
+VM568:6 Uncaught SyntaxError: Unexpected token }
+function printFruits(myflist)
+{
+for(var i=0; i<myflist.length;i++) {
+console.log(myflist[i]);}
+} 
+}
+
+VM605:6 Uncaught SyntaxError: Unexpected token }
+function printFruits(myflist)
+{
+for(var i=0; i<myflist.length;i++) {
+console.log(myflist[i]);}
+} 
+}
+
+VM607:6 Uncaught SyntaxError: Unexpected token }
+function printFruits(myflist)
+{
+for (var i=0; i < myflist.length; i++) {
+console.log(myflist[i]);
+} 
+}
+
+undefined
+printFruits(fruitsList)
+VM614:4 banana
+VM614:4 kiwi
+VM614:4 orange
+VM614:4 mango
+VM614:4 apple
+undefined
+function printFruits(myflist)
+{
+for (var i=1; i <=5 myflist.length; i++) {
+console.log(myflist[i]);
+} 
+}
+
+VM655:3 Uncaught SyntaxError: Unexpected identifier
+function printFruits(myflist)
+{
+for (var i=1; i <= 4 myflist.length-1; i++) {
+console.log(myflist[i]);
+} 
+}
+
+VM665:3 Uncaught SyntaxError: Unexpected identifier
+function printFruits(myflist)
+{
+for (var i=1; i < myflist.length; i++) {
+console.log(myflist[i]);
+} 
+}
+
+undefined
+printFruits(fruitsList)
+VM673:4 kiwi
+VM673:4 orange
+VM673:4 mango
+VM673:4 apple
+undefined
+for (var i=1; i<=5; i++)
+}
+console.log(i)
+}
+
+VM766:2 Uncaught SyntaxError: Unexpected token }
+for (var i=1; i<=4; i++){
+	console.log(i)
+}
+
+VM774:2 1
+VM774:2 2
+VM774:2 3
+VM774:2 4
+undefined

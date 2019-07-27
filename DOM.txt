@@ -1,0 +1,54 @@
+P Element
+
+var div = document.getElementById("d1")
+ var p1 = document.getElementById("p1")
+ console.log(p1.textContent)
+
+OR
+
+var div = document.getElementById("d1")
+var ps = document.getElementsByTagName("p")
+console.log(ps[0].textContent)
+
+SETTING INTERVALS
+
+var p = document.getElementById("p1")
+p.innerHTML = 'First paragraph updated again'
+
+setTimeout(()=> p.innerHTML = "First paragraph updated",2000)
+
+OR
+
+var pss = document.getElementById("pss")
+p.innerHTML = 'First paragraph updated again'
+
+setTimeout(()=> pss[0].innerHTML = "First paragraph updated",2000)
+
+HANDLING ELEMENTS
+var pss = document.getElementsByClassName("pss")
+// pss.innerHTML = 'First paragraph updated again'
+
+ setTimeout(()=> pss[0].innerHTML = "First paragraph updated",2000)
+
+var body = document.body
+body.style.backgroundColor = 'silver'
+
+
+for (var i=0; i< pss.length; i++) {
+  pss[i].style.color = "green"
+}
+pss[1].setAttribute("foo", "bar")
+
+
+var p3 = document.createElement("p")
+var text = doument.createTextNode("Third paragraph")
+p3.appendChild(text)
+
+var div = document.getElementById("d1")
+div.appendChild(p3)
+
+pss[1].onclick = () => alert("clicked")
+
+
+
+

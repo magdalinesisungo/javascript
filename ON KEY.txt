@@ -1,0 +1,44 @@
+ONCLICK
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  
+  <style>
+  #myGif{
+     width:250px
+  }
+
+  </style>
+</head>
+<body>
+  
+  <img id="myGif" src = "https://bit.ly/2VGmw6X">
+ <!--  <input onchange = "alert('something changed')"/> -->
+<!--<input onkeydown = "alert('something changed')" /> -->
+  <input id="name1" type="text"/>
+  <button id="myBtn1">Submit</button>
+  
+  <input id="name2" type="text"/>
+  <button id="myBtn2">Submit</button>
+   
+
+</body>
+</html>
+
+
+JS
+
+myBtn1.onclick = () => {
+  var element=document.getElementById("name1")
+  alert(element.value)
+}
+
+myBtn2.onclick = () => {
+  var element=document.getElementById("name2")
+  alert(element.value)
+}

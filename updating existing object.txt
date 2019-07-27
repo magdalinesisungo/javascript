@@ -1,0 +1,26 @@
+var produt = []
+[ { } ]
+
+UPDATING
+
+let product = getProduct(produtId)
+product= { productid:productld'
+	   name:name
+}
+
+
+this.products.map(product=> {
+if(product.productId == productId){
+product.productId=productid
+product.name=name 
+}
+}
+
+
+if(productId== undefined) {
+throw new Error("product Id is required")
+}
+
+let product = getProduct(productid)
+product.productId=productid
+product.name=name 

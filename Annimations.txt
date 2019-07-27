@@ -1,0 +1,22 @@
+mario.onclick = () => {
+  let start = Date.now()
+  let intervalId = setInterval(superMario , 20)
+  
+  function superMario (){
+    let timePassed = Date.now() - start
+    
+    if(timePassed > 2000) {
+      clearInterval(intervalId)
+      alert("Horray")
+    }
+    else{
+      mario.style.left = timePassed / 5 + 'px'
+    }
+  }
+  
+}
+
+MOUSE EVENTS
+myGif.onclick = () => alert("clicked")
+myGif.onmouseover = () =>alert("mouse over")
+

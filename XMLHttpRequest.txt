@@ -1,0 +1,56 @@
+Converting a JSON Text to a JS Object
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+var text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+
+var obj = JSON.parse(text)
+console.log(obj.employees[0].firstName)
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+XMLHttpRequest
+
+let xhr = new XMLHttpRequest()
+xhr .open('GET','https://jsonplaceholder.typicode.com/posts')
+xhr .send()
+
+
+xhr.onload = function() {
+  if (xhr.status != 200) { // analyze HTTP status of the response
+    alert(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
+  } else; {
+    
+   var data = JSON.parse(xhr .response)
+//   console.log(data)
+  data.map(item => {
+    document.write(item.title)
+  })
+  // show the result
+//     alert(`Done, got ${xhr.response.length} bytes`); // responseText is the server
+  }
+};
+
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+let xhr = new XMLHttpRequest()
+xhr .open('GET','https://jsonplaceholder.typicode.com/posts')
+xhr .send()
+
+
+xhr.onload = function() {
+  if (xhr.status != 200) { // analyze HTTP status of the response
+    alert(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
+  } else; {
+    
+   var data = JSON.parse(xhr .response)
+//   console.log(data)
+  data.map(item => {
+    document.write(item.title)
+  })
+  // show the result
+//     alert(`Done, got ${xhr.response.length} bytes`); // responseText is the server
+  }
+};
+  
+  

@@ -1,0 +1,19 @@
+React Component
+
+STATE
+It stores data about the component that can change over time.
+PROPS
+stands for properties.
+Is a way of passing .
+
+'this' means that class that was given.
+
+SIBLINGS
+Should have one job e.g update or display.
+
+
+compoentWillMount is exxecuted before the component has been rendered.
+componentDidMount if executed after the component has been rendered.
+componentWillUpdate is called just b4 rendering.
+componentDidUpdate is called just after rendering.
+componentWillUnmount is called after the component has been unmounted.
